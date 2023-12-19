@@ -5,13 +5,13 @@ The aim of this project is to maintain a voter database and address the issue of
 
 ### Installation
  You can install the necessary libraries with the following commands:
-* Pip install Faker 
-* Pip install Flask 
-* Pip install markupsafe
-* Pip install jinja2
-* pip install click
-* Pip install itsdangerous
-* Pip install pandas
+* `Pip install Faker `
+* `Pip install Flask `
+* `Pip install markupsafe`
+* `Pip install jinja2`
+* `pip install click`
+* `Pip install itsdangerous`
+* `Pip install pandas`
 
 
 ### Usage
@@ -27,7 +27,7 @@ The aim of this project is to maintain a voter database and address the issue of
 
 ### Troubleshooting 
 
-1. Error: "ModuleNotFoundError: No module named 'the library name'"
+1. Error: "`ModuleNotFoundError: No module named 'the library name'`"
 Solution: This error occurs when the library name in the error has not been installed. To fix this. Make sure all the libraries above have been installed.
  
 2. Server Error - Port [port number] already in use
