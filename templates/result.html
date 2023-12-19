@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Voter Information Result</title>
+	<style>
+		body {
+			background-color: #dddd;
+			color: #000;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			line-height: 1.5;
+		}
+
+		h1 {
+			color: #fff;
+			font-size: 28px;
+			margin-bottom: 20px;
+		}
+
+		.container {
+			padding: 50px;
+			margin: 0 auto;
+			max-width: 500px;
+			text-align: center;
+			background-color: #dddd;
+			box-shadow: 0 0 10px rgba(0,0,0,0.3);
+			border-radius: 10px;
+		}
+
+		.header {
+			background-color: #007805;
+			padding: 20px;
+			border-radius: 10px 10px 0 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Voter Information Result</h1>
+		</div>
+		<p>Here is your polling unit information:</p>
+		<ul  style="list-style: none;">
+			<li><strong>Name:</strong> {{ name }}</li>
+			<li><strong>Date of Birth:</strong> {{ dob }}</li>
+			<li><strong>Polling Unit Name:</strong> {{ polling_unit_name }}</li>
+			<li><strong>Polling Unit Address:</strong> {{ polling_unit_address }}</li>
+			<li><strong>Polling Unit City:</strong> {{ polling_unit_city }}</li>
+		</ul>
+	</div>
+</body>
+</html>
